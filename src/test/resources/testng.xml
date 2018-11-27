@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Products Management" verbose="1" >
+  <test name="Create New Order [Chrome]" >
+    <parameter name="selenium.browser" value="chrome" />
+    <classes>
+      <class name="myprojects.automation.assignment4.tests.CreateProductTest" />
+    </classes>
+  </test>
+
+  <!--Configure tests for other browser types-->
+</suite>
